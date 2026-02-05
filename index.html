@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeonBlog | Tech & Stories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Neon<span class="text-gradient">Blog</span></div>
+                <div>
+                    <a href="#" style="color: var(--text-secondary); text-decoration: none; margin-right: 20px;">Trending</a>
+                    <a href="#" class="btn">Subscribe</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Top Ad Banner -->
+        <div class="ad-banner ad-top" id="top-ad">
+            Loading Advertisement...
+        </div>
+
+        <div class="main-layout">
+            <!-- Main Content Area -->
+            <main>
+                <h1 style="margin-bottom: var(--spacing-lg); font-size: 2.5rem;">Latest <span class="text-gradient">Stories</span></h1>
+                
+                <!-- Blog Grid -->
+                <!-- We will inject content here via JS -->
+                <div class="blog-feed" id="blog-feed">
+                    <!-- Cards go here -->
+                </div>
+            </main>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3 class="widget-title">About</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">
+                        A simple, high-performance blog platform optimized for readers.
+                    </p>
+                </div>
+
+                <!-- Sidebar Ad -->
+                <div class="ad-banner ad-sidebar" id="sidebar-ad-1">
+                    Sidebar Advertisement
+                </div>
+
+                <div class="widget">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul style="list-style: none; color: var(--text-secondary);">
+                        <li style="margin-bottom: 8px;">Technology (12)</li>
+                        <li style="margin-bottom: 8px;">Lifestyle (8)</li>
+                        <li style="margin-bottom: 8px;">Design (5)</li>
+                    </ul>
+                </div>
+
+                 <!-- Sidebar Ad 2 -->
+                 <div class="ad-banner ad-sidebar" id="sidebar-ad-2">
+                    Sidebar Advertisement
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer style="margin-top: var(--spacing-xl); padding: var(--spacing-lg) 0; border-top: 1px solid var(--border-color); text-align: center; color: var(--text-secondary);">
+        <div class="container">
+            <p>&copy; 2024 NeonBlog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://neonblog.com/index.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Blog Posts -->
+    <url>
+        <loc>https://neonblog.com/blog.html?id=1</loc>
+        <lastmod>2024-10-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://picsum.photos/seed/tech1/800/400</image:loc>
+            <image:title>The Future of AI in Web Development</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://neonblog.com/blog.html?id=2</loc>
+        <lastmod>2024-10-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://picsum.photos/seed/design2/800/400</image:loc>
+            <image:title>Minimalism is Not Just 'Less'</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://neonblog.com/blog.html?id=3</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://picsum.photos/seed/travel3/800/400</image:loc>
+            <image:title>Digital Nomad: Reality vs Dream</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://neonblog.com/blog.html?id=4</loc>
+        <lastmod>2024-10-18</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://picsum.photos/seed/code4/800/400</image:loc>
+            <image:title>Why You Should Learn Rust Today</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://neonblog.com/blog.html?id=5</loc>
+        <lastmod>2024-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://picsum.photos/seed/vr5/800/400</image:loc>
+            <image:title>Review: The New VR Headsets</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://neonblog.com/blog.html?id=6</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://picsum.photos/seed/work6/800/400</image:loc>
+            <image:title>Deep Work in a Distracted World</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://neonblog.com/blog.html?id=7</loc>
+        <lastmod>2024-10-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://picsum.photos/seed/money7/800/400</image:loc>
+            <image:title>Crypto: Is the Winter Over?</image:title>
+        </image:image>
+    </url>
+
+    <!-- Policy Pages -->
+    <url>
+        <loc>https://neonblog.com/privacy-policy.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+</urlset>

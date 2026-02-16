@@ -1,0 +1,24 @@
+# robots.txt for NeonBlog
+# Allows all search engines to crawl and index all content
+# Prevents crawling of unnecessary files and directories
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /blog.html
+Allow: /privacy-policy.html
+Allow: /styles.css
+Allow: /script.js
+
+# Explicitly disallow non-essential directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /config/
+Disallow: /*.pdf$
+Disallow: /*.zip$
+
+# Sitemap location
+Sitemap: https://neonblog.com/sitemap.xml
+
+# Crawl delay (in seconds) - adjust based on server capacity
+# Crawl-delay: 1

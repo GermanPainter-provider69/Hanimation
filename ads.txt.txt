@@ -1,0 +1,11 @@
+# Ads.txt file for NeonBlog
+# Generated for Google AdSense compliance
+# https://iabtechlab.com/ads-txt/
+
+# Direct seller declaration
+google.com, pub-9917851032552239, DIRECT, f08c47fec0942fa0
+
+# Resellers (if applicable)
+# Include additional authorized sellers below if using ad networks besides Google AdSense
+# Example format:
+# adnetwork.com, seller-id, RESELLER, account-id
